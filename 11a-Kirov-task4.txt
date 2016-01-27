@@ -1,0 +1,6 @@
+>> angle = 0 : 0.1 : 3 * pi
+>> figure
+>> plot (angle, cos(angle - pi/2), "*")
+>> xlabel("Angle [rad]");
+>> ylabel("Cos(Angle - pi/2)")
+>> title(Y = "sin(angle)")
